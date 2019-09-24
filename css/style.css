@@ -1,0 +1,195 @@
+/* general style */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #000;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+  color: #000;
+  text-decoration: underline;
+}
+
+.ribbon {
+  width: 100%;
+}
+
+/* navbar */
+.nav-link {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+/* section projeto */
+.badge-pink {
+  background-color: #F5839C;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;  
+  font-size: 18px;
+  width: fit-content;
+}
+
+.yellow-balloon {
+  background-image: url("./img/yellow-balloon.png");
+  background-position: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .yellow-balloon {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  .yellow-balloon {
+    background-size: 120%;
+  }
+}
+
+.yellow-balloon__text {
+  max-width: 600px;
+  text-align: justify;
+}
+
+
+/* section bunekometro */
+.bunekas-circle {
+  background-image: url('./img/rodaBunekasSITE.png');
+  background-size: cover;
+}
+
+.bunekas-circle__background {
+  background-color: #F2C94C;
+  border-radius: 50%;
+}
+
+.bunekas-circle__text {
+  font-size: 48px;
+  max-width: 260px;
+  text-align: center;
+  color: #fff;
+  line-height: 120%;
+}
+
+.bunekas-circle__span {
+  font-weight: bold;
+}
+
+/* section africa */
+.africa__why {
+  background: rgba(242, 201, 76, 0.25);
+}
+
+.africa__description {
+  width: 100%;
+}
+.africa__text {
+  width: 100%;
+}
+
+.africa__ellipse {
+  background-image: url('./img/Ellipse.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.africa__ellipse__text {
+  color: #fff;
+}
+
+.africa__map, .africa__map__img {
+  width: 100%;
+  background-color: #5B9E9B;
+}
+
+.africa__map__img {
+  height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .africa__ellipse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .africa__ellipse__text, africa__ellipse__title {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-size: 26px;
+  }
+  .africa__why {
+    max-width: 57%;
+  }
+/* 
+  .africa__map {
+    max-width: 43%;
+  } */
+
+  .africa__description {
+    width: 100%;
+  }
+  .africa__text {
+    width: 50%;
+  }
+  .africa__ellipse {
+    position: absolute;
+    width: 50%;
+    background-size: cover;
+    top: 0;
+    left: 50%;
+  }
+}
+
+/* section onde */
+.where, .where__form {
+  width: 100%;
+}
+
+.map__text-bold {
+  font-weight: bold;
+}
+
+.map__text {
+  line-height: 100%;
+}
+
+@media (min-width: 1024px){
+  .where, .where__form {
+    width: 50%;
+  } 
+}
+
+.where__form__text {
+  font-size: 16px;
+}
+
+.form-group {
+  width: 75%;
+}
+.submit-pink {
+  background-color: #F5839C;
+  font-weight: bold;  
+  font-size: 14px;
+  width: 100%;
+}
